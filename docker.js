@@ -22,3 +22,5 @@
 // /usr/share/nginx/html:ro => ini tempatnya di dalam docker
 //* kalau mau ke dalam direktori container : docker exec -it websiteku bash
 // keluar pakai exit
+
+// kopi dari container lain : docker run --name websiteku-copy --volumes-from websiteku -d -p 8081:80 nginx
