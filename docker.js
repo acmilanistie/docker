@@ -19,4 +19,6 @@
 // $ docker run --name websiteku -p 8080:80 nginx:latest -v /some/content:/usr/share/nginx/html:ro -d nginx
 // $ docker run --name websiteku -p 8080:80 nginx:latest -v $(pwd):/usr/share/nginx/html:ro -d nginx
 // $ docker run --name websiteku -v $(dir):/usr/share/nginx/html -d -p 8080:80 nginx di windows
+// /usr/share/nginx/html:ro => ini tempatnya di dalam docker
 //* kalau mau ke dalam direktori container : docker exec -it websiteku bash
+// keluar pakai exit
